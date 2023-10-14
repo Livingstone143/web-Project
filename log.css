@@ -1,0 +1,43 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  body {
+    background-image: url(./ee.jpg)  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: monospace, serif;
+    letter-spacing: 0.05em;
+    margin-top: 250px; }
+  h1 {
+    font-size: 23px;
+  }
+  .form {
+    width: 300px;
+    margin: 100px auto;
+    background: rgba( 0, 0, 0, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+justify-content: center;
+padding-left: 20px;
+  }
+  .btn{
+    background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 13px );
+-webkit-backdrop-filter: blur( 13px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+   
+  .ip{
+    background-color: slategrey;
+    opacity: 50%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+  }
